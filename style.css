@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    color: #222;
+    line-height: 1.5;
+}
+
+
+/* Header */
+
+header {
+    background: #243447;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 20px;
+}
+
+header p {
+    margin: 10px;
+}
+
+
+/* Navigation */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background: #3498db;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+
+/* Main */
+
+main {
+    width: 92%;
+    max-width: 950px;
+    margin: 20px auto;
+}
+
+
+/* Cards */
+
+.card {
+    background: white;
+    padding: 18px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #bbb;
+}
+
+
+/* Headings */
+
+h2 {
+    color: #243447;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+}
+
+
+/* Tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+th,
+td {
+    border: 1px solid #bbb;
+    padding: 7px;
+    text-align: left;
+}
+
+th {
+    background: #3498db;
+    color: white;
+}
+
+
+/* Lists */
+
+ul,
+ol {
+    margin-left: 20px;
+}
+
+
+/* Technical Skills */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+    margin-left: 0;
+}
+
+.skills li {
+    background: #3498db;
+    color: white;
+    padding: 4px 9px;
+    border-radius: 12px;
+}
+
+
+/* Links */
+
+.card a {
+    color: #3498db;
+}
+
+
+/* Button */
+
+.button-area {
+    background: white;
+    padding: 18px;
+    text-align: center;
+    margin-bottom: 18px;
+    border-radius: 8px;
+}
+
+button {
+    background: #243447;
+    color: white;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1abc9c;
+}
+
+
+/* Footer */
+
+footer {
+    background: #243447;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+
+/* Mobile View */
+
+@media (max-width: 600px) {
+
+    main {
+        width: 95%;
+    }
+
+    .skills {
+        display: block;
+    }
+
+    .skills li {
+        display: inline-block;
+        margin: 2px;
+    }
+
+}
